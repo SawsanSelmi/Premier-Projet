@@ -11,7 +11,7 @@ public static final String endpoint = "https://httpbin.org/get";
 public static void main(String[] args) {
 HttpClient client = new DefaultHttpClient();
 HttpGet request = new HttpGet(endpoint);
-String ip = "Not found !!"; 
+String ip = "Adresse not found !!"; 
 try {
 HttpResponse response = client.execute(request);
 String jsonResponse = EntityUtils.toString(response.getEntity());
