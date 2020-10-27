@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('') {
       steps {
-        bat 'echo "lancer le build"'
+        bat 'mvn compile'
       }
     }
 
